@@ -1,0 +1,204 @@
+.mundo {
+    position: relative;
+    height: 765px;
+    width: 1025px;
+    background-image: url("img/fondo.jpg");
+}
+
+
+.titulo {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5em;
+    text-align: center;
+    color: red;
+    -webkit-text-stroke: 5px greenyellow;
+    padding: 2%;
+}
+
+.vidas {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2em;
+    color: red;
+    -webkit-text-stroke: 1px white;
+    margin-left: 400px;
+
+
+
+}
+.instruccion {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5em;
+    color: red;
+    -webkit-text-stroke: 0.5px white;
+    margin-left: 200;
+
+
+
+}
+
+.texto {
+    margin-left: 30px;
+    font-size: 5em;
+    font-family: 'Press Start 2P', cursive;
+    -webkit-text-stroke: 2px white;
+    color: red;
+    margin-left: 200px;
+    display: inline-block;
+    margin-top: 100;
+}
+
+#spider {
+    position: absolute;
+    background-image: url(img/spiderun.gif);
+    width: 130;
+    height: 170;
+    background-size: cover;
+    top: 520;
+    left: 895;
+}
+
+#dona {
+    position: absolute;
+    background-image: url(img/dona.png);
+    width: 125;
+    height: 170;
+    background-size: cover;
+    top: 330;
+    left: 760;
+    -webkit-text-stroke: 5px greenyellow;
+}
+
+#condoro {
+    position: absolute;
+    background-image: url(img/condorito.gif);
+    width: 100;
+    height: 170;
+    background-size: cover;
+    top: 430;
+    left: 700;
+}
+
+#barril1 {
+
+    position: absolute;
+    background-image: url(img/barril.png);
+    width: 83px;
+    height: 100;
+    background-size: cover;
+    top: 528;
+    left: 700px;
+
+}
+
+#barril2 {
+    position: absolute;
+    background-image: url(img/barril.png);
+    width: 83px;
+    height: 100;
+    background-size: cover;
+    top: 552;
+    left: 630;
+}
+
+#gorgori {
+    position: absolute;
+    background-image: url(img/cop2.png);
+    width: 90px;
+    height: 140px;
+    background-size: cover;
+    top: 470;
+    left: 600px;
+}
+
+#police_1 {
+    position: absolute;
+    background-image: url(img/policia.png);
+    width: 90px;
+    height: 140px;
+    background-size: cover;
+    top: 350px;
+    left: 70px;
+    -webkit-transform: rotate(25deg);
+
+}
+
+#police_2 {
+    position: absolute;
+    background-image: url(img/policia.png);
+    width: 90px;
+    height: 140px;
+    background-size: cover;
+    top: 552;
+    left: 46px;
+}
+
+#police_3 {
+    position: absolute;
+    background-image: url(img/policia.png);
+    width: 90px;
+    height: 140px;
+    background-size: cover;
+    top: 520px;
+    left: 820px;
+    -webkit-transform: rotate(-25deg);
+}
+
+#police_4 {
+    position: absolute;
+    background-image: url(img/policia.png);
+    width: 90px;
+    height: 140px;
+    background-size: cover;
+    top: 330px;
+    left: 921px;
+}
+
+#cerroizq {
+    position: absolute;
+    background-image: url(img/cerroizq.png);
+    width: 236px;
+    height: 315px;
+    background-size: cover;
+    top: 450;
+    left: 790px;
+}
+
+#cerroizq2 {
+    position: absolute;
+    background-image: url(img/cerroizq.png);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    top: 565px;
+    left: 808px;
+}
+
+#cerroder {
+    position: absolute;
+    background-image: url(img/cerroder.png);
+    width: 150px;
+    height: 120px;
+    background-size: cover;
+    top: 645px;
+    left: 0px;
+}
+
+#cerroder2 {
+    position: absolute;
+    background-image: url(img/cerroder.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    top: 465px;
+    left: 0px;
+}
+
+#matapaco {
+    position: absolute;
+    background-image: url(img/matapaco1.png);
+    width: 100px;
+    height: 99px;
+    background-size: cover;
+    top: 363px;
+    left: 28px;
+}
